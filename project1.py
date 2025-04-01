@@ -11,7 +11,7 @@ from xgboost import XGBRegressor
 import joblib
 
 # Reading CSV File
-data = pd.read_csv("AI ML LEARN\House Price Pred. Project\Housing.csv")
+data = pd.read_csv() # DOWNLOAD DATASET FROM LINK GIVEN IN README
 df = pd.DataFrame(data)
 
 # Check Missing Values 
